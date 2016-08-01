@@ -653,6 +653,9 @@ ul.social-buttons li a:active {
 .btn:active:focus {
   outline: none;
 }
+.portfolio-modal .modal-body .pleft {
+  text-align: left;
+}
 .portfolio-modal .modal-content {
   border-radius: 0;
   background-clip: border-box;
