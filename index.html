@@ -147,6 +147,20 @@
                         <p class="text-muted">Herramienta</p>
                     </div>
                 </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#modal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/slideshow.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Slideshows</h4>
+                        <p class="text-muted">Herramienta</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -363,7 +377,7 @@
                             <p class="pleft">
                                 <strong>Tecnologías:</strong> Google Spreadsheet para los datos y configuración. Plugins: BubbleTree, Jquery, Tabletop. Construído en javascript, css y html. Hosteado en Github Pages para proveer el embed.
                             </p>
-                            <div class="row">
+                            <div class="row well">
                                 <div class="col-md-6">
                                     <p class="pleft"><strong>Ejemplo:</strong> Fue utilizado para visualizar la investigación sobre el financiamiento de la campaña de Cambiemos.</p>
                                     <p class="pleft">El mismo embed fue insertado dos veces en la misma página con el parámetro 'key' de distintas planillas de Spreadsheet.</p>
@@ -374,7 +388,7 @@
                                 </div>
                             </div>
                             <p class="pleft">
-                                <strong>¿Lo puedo utilizar en mi sitio?</strong> Claro! Seguí los siguientes pasos:
+                                <strong>¿Lo puedo utilizar en mi sitio?</strong> ¡Claro! Seguí los siguientes pasos:
                             </p>
                             <ol class="pleft">
                                 <li>Hacé una copia del <a class="btn btn-primary btn-xs" href="https://docs.google.com/spreadsheets/d/1GRcgHh2pnOloRZ9INtjc3Rp_qGWDsaESGxpOTMTMx_w/pubhtml" target="_blank">Spreadsheet de ejemplo</a> y completalo con tus datos.</li>
@@ -391,6 +405,67 @@
                                 <li>Fecha: Marzo 2016</li>
                                 <li>Usado en: <a href="http://chequeado.com/investigaciones/macri-recibio-3-millones-de-contratistas-del-estado-para-su-campana-electoral/" target="_blank">Chequeado</a></li>
                                 <li>Generador: <a href="http://chequeado.github.io/bubbletree/dist/" target="_blank">en github</a></li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Portfolio Modal2 -->
+    <div class="portfolio-modal modal fade" id="modal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Slideshow</h2>
+                            <p class="item-intro text-muted">Herramienta</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/slideshow.png" alt="">
+                            <p class="lead text-center">Brinda la posibilidad de generar galerías con imágenes y texto. Basadas en <a class="btn btn-primary btn-xs" href="http://getbootstrap.com/javascript/#carousel" target="_blank">Carousel</a> de Bootstrap.</p>
+                            <p class="pleft">
+                                <strong>Detalle:</strong> Se desarrolló la conexión a una fuente de datos dinámica: toda la información es obtenida desde un Google Spreadsheet. Completamente responsive. Las imágenes deben ser url absolutas. Pueden crearse galerías simples o dobles (dos entradas por slide). Permite modificar el color del fondo de cada slide.
+                            </p>
+                            <p class="pleft">
+                                <strong>Tecnologías:</strong> Google Spreadsheet para los datos y configuración. Plugins: Carousel de Bootstrap, Jquery, Tabletop. Construído en javascript, css y html. Hosteado en Github Pages para proveer el embed.
+                            </p>
+                            <div class="row well">
+                                <div class="col-md-6">
+                                    <p class="pleft"><strong>Ejemplo:</strong> Lo utilizamos para presentar fórmulas políticas o comparaciones entre candidatos.</p>
+                                    <p class="pleft">Ejemplo simple: <a class="btn btn-primary btn-xs" href="http://chequeado.com/el-explicador/conoce-a-fondo-a-los-dos-candidatos-del-balotaje/" target="_blank">Candidatos balotaje</a> y <a class="btn btn-primary btn-xs" href="http://chequeado.com/el-explicador/justiciapedia-quienes-son-rosenkrantz-y-rosatti-los-dos-candidatos-a-integrar-la-corte/" target="_blank">Candidatos a la Corte</a>
+                                    </p>
+                                    <p class="pleft">Ejemplo doble: <a class="btn btn-primary btn-xs" href="" target="_blank">xxx</a></p>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="img-responsive img-centered" src="img/portfolio/slideshow-preview.gif" alt="">
+                                </div>
+                            </div>
+                            <p class="pleft">
+                                <strong>¿Lo puedo utilizar en mi sitio?</strong> ¡Claro! Seguí los siguientes pasos:
+                            </p>
+                            <ol class="pleft">
+                                <li>Ingresá al <a class="btn btn-primary btn-xs" href="http://chequeado.github.io/slideshow-candidatos/dist/" target="_blank">Generador</a> y seguí las instrucciones.</li>
+                                <li>Deberás crear y publicar un Spreadsheet de Google con un formato determinado. Hay un ejemplo en el generador para que lo copies.</li>
+                                <li>Completá la clave de tu documento.</li>
+                                <li>Al hacer click en el botón Test vas a poder ver una previsualización de cómo quedará la galería utilizando tus datos.</li>
+                                <li>Puedes hacer el test cuantas veces quieras e ir corrigiendo tu Spreadsheet hasta lograr tu objetivo.</li>
+                                <li>Cuando ya terminaste, copiá el código para embeber y colócalo en tu sitio.</li>
+                                <li>Recuerda siempre dejar publicada la planilla Spreadsheet. Puedes modificarla las veces que quieras y los nuevos datos serán visualizados por el wrapper. (La actualización puede demorar unos minutos.)</li>
+                            </ol>
+                            <hr/>  
+                            <ul class="list-inline">
+                                <li>Fecha: Julio 2015</li>
+                                <li>Usado en: <a href="http://chequeado.com/el-explicador/conoce-a-fondo-a-los-dos-candidatos-del-balotaje/" target="_blank">Chequeado</a></li>
+                                <li>Generador: <a href="http://chequeado.github.io/slideshow-candidatos/dist/" target="_blank">en github</a></li>
                             </ul>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
                         </div>
